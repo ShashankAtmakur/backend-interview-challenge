@@ -10,7 +10,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage",
-    "lint": "eslint src/**/*.ts",
+  "lint": "eslint --ext .ts src",
     "format": "prettier --write src/**/*.ts",
     "typecheck": "tsc --noEmit"
   },
