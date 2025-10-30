@@ -12,7 +12,8 @@
     "test:coverage": "vitest --coverage",
   "lint": "eslint --ext .ts src",
     "format": "prettier --write src/**/*.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "render-build": "npm ci --include=dev && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
   "bugs": {
     "url": "https://github.com/senguttuvang/backend-interview-challenge/issues"
   },
