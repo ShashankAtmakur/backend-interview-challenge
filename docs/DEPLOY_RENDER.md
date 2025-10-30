@@ -20,7 +20,7 @@ Steps (UI)
 5. Create the service and deploy. Render will run `npm ci --include=dev && npm run build` and then start the app.
 
 Verification
-- After deploy, visit `https://<your-service>.onrender.com/api/health` to check the health endpoint.
+- After deploy, visit `https://backend-interview-challenge-bl7c.onrender.com/api/health` to check the health endpoint.
 - Create/list tasks using `/api/tasks` and trigger `/api/sync` as needed.
 
 Notes
