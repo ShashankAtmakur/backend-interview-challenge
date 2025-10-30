@@ -7,7 +7,7 @@ export class SyncService {
   
   constructor(
     private db: Database,
-    apiUrl: string = process.env.API_BASE_URL || 'http://localhost:3000/api'
+    apiUrl: string = process.env.API_BASE_URL || `http://localhost:${process.env.PORT || 3000}/api`
   ) {
     this.apiUrl = apiUrl;
   }
